@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Portfolio -  Developer, Visual Artist & Scientific Researcher." />
+  <title>Portfolio | Developer & Researcher</title>
+
+  <!-- Google Fonts: Space Grotesk & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- External Stylesheet (style.css) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+  <!-- ========================================================================
+       1. NAVIGATION SECTION (Header / Navbar)
+       ======================================================================== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#about" class="logo" aria-label="Portfolio Home">
+        <span class="logo-badge">P</span>
+        <span>Portfolio<span style="color: var(--accent-secondary);">.</span></span>
+      </a>
+
+      <!-- Navigation Links: About Me, Gallery, Project, Research, Contact -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link active">About Me</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#research" class="nav-link">Research</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-actions">
+          <a href="#contact" class="btn btn-primary btn-sm btn-glow">
+            <i class="fa-solid fa-paper-plane"></i> Get In Touch
+          </a>
+        </li>
+      </ul>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         2. ABOUT ME SECTION (Hero + Bio + Metrics + Skills)
+         ======================================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <!-- Hero Introduction & Visual -->
+        <div class="about-hero">
+          <div class="about-intro">
+            <div class="greeting">
+              <span class="status-dot"></span> Available for Research & Engineering Collaborations
+            </div>
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Farhan Masud Nayem</span>.<br>
+              Web Developer & Researcher.
+            </h1>
+            <p class="hero-bio">
+              I am a Web Developer and Researcher with a strong interest in Artificial Intelligence (AI), Machine
+              Learning (ML), and Deep Learning (DL). My research focuses on Medical Image Analysis, Computer Vision, and
+              EEG Signal Processing. I enjoy building web applications and exploring AI-driven solutions to real-world
+              problems, particularly in healthcare and intelligent systems. I am passionate about continuous learning,
+              innovation, and developing technologies that make a meaningful impact.
+            </p>
+            <div class="hero-cta-group">
+              <a href="#gallery" class="btn btn-primary btn-glow">
+                <i class="fa-solid fa-images"></i> Explore Gallery
+              </a>
+              <a href="#projects" class="btn btn-secondary">
+                <i class="fa-solid fa-code"></i> View Projects
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <i class="fa-solid fa-envelope"></i> Contact Me
+              </a>
+            </div>
+          </div>
+
+          <div class="about-visual">
+            <div class="profile-card">
+              <img src="images/masud.png" alt="Farhan Masud Nayem Portrait" loading="lazy">
+              <div class="profile-badge">
+                <div>
+                  <div style="font-size: 0.9rem; font-weight: 700; color: #fff;">Farhan Masud Nayem</div>
+                  <div style="font-size: 0.78rem; color: var(--accent-secondary);">Web Developer & Researcher</div>
+                </div>
+                <div style="text-align: right;">
+                  <span class="status-dot"></span>
+                  <span style="font-size: 0.75rem; color: var(--accent-success); font-weight: 600;">Active</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Key Metrics & Highlights -->
+        <div class="about-metrics">
+          <div class="metric-card">
+            <div class="metric-number">3<span>+</span></div>
+            <div class="metric-label">Software Projects Built</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number">04<span>+</span></div>
+            <div class="metric-label">Peer-Reviewed Papers</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number">1.2<span>k+</span></div>
+            <div class="metric-label">Open-Source Stars</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number">2<span>+</span></div>
+            <div class="metric-label">Research Experience</div>
+          </div>
+        </div>
+
+        <!-- Core Competencies & Skills -->
+        <div class="about-skills-wrapper">
+          <h3 class="skills-heading">Technical Proficiencies & Focus Areas</h3>
+          <div class="skills-tags">
+            <span class="skill-tag"><i class="fa-brands fa-python"></i> Python & PyTorch</span>
+            <span class="skill-tag"><i class="fa-solid fa-diagram-project"></i> Tensorflow & Keras</span>
+            <span class="skill-tag"><i class="fa-brands fa-js"></i> TypeScript & Node.js</span>
+            <span class="skill-tag"><i class="fa-solid fa-cube"></i> C, C++</span>
+            <span class="skill-tag"><i class="fa-brands fa-golang"></i> HTML, CSS, JavaScript, Typescript</span>
+            <span class="skill-tag"><i class="fa-solid fa-diagram-project"></i> Django, FastAPI</span>
+            <span class="skill-tag"><i class="fa-solid fa-database"></i> SQLite & SQL</span>
+            <span class="skill-tag"><i class="fa-brands fa-docker"></i> Image Processing</span>
+            <span class="skill-tag"><i class="fa-solid fa-chart-line"></i> Deep Learning</span>
+            <span class="skill-tag"><i class="fa-solid fa-paintbrush"></i> Computer Vision</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. GALLERY SECTION
+         ======================================================================== -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-eye"></i> Visual Work</span>
+          <h2 class="section-title">Media Gallery</h2>
+          <p class="section-subtitle">
+            Some of these photographs are personal, while others are of certificates and tours.
+          </p>
+        </div>
+
+        <!-- Interactive Category Filters -->
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all"><i class="fa-solid fa-border-all"></i> All Media</button>
+          <button class="filter-btn" data-filter="personal"><i class="fa-solid fa-user"></i> Personal</button>
+          <button class="filter-btn" data-filter="tour"><i class="fa-solid fa-plane-departure"></i> Tour</button>
+          <button class="filter-btn" data-filter="certificiate"><i class="fa-solid fa-award"></i> Certificate</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Personal Image 1 -->
+          <div class="gallery-item" data-category="personal"
+            onclick="openLightbox(this.querySelector('img').src, 'Personal Portrait')">
+            <img src="images/personal/masud.png" alt="Personal Photograph" loading="lazy"
+              onerror="this.onerror=null; this.src='images/Nayem.png';">
+            <div class="gallery-overlay">
+              <span class="gallery-tag"><i class="fa-solid fa-user"></i> Personal</span>
+              <h3 class="gallery-title">Personal Portrait</h3>
+            </div>
+          </div>
+
+          <!-- Personal Image 2 -->
+          <div class="gallery-item" data-category="personal"
+            onclick="openLightbox(this.querySelector('img').src, 'Campus & Work Moments')">
+            <img src="images/personal/defense3.jpeg" alt="Campus & Work Moments" loading="lazy"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80';">
+            <div class="gallery-overlay">
+              <span class="gallery-tag"><i class="fa-solid fa-user"></i> Personal</span>
+              <h3 class="gallery-title">Campus & Work Moments</h3>
+            </div>
+          </div>
+
+          <!-- Tour Image 1 -->
+          <div class="gallery-item" data-category="tour"
+            onclick="openLightbox(this.querySelector('img').src, 'Excursion & Tour Journey')">
+            <img src="images/tour/bandorban1.jpeg" alt="Excursion & Tour Journey" loading="lazy"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80';">
+            <div class="gallery-overlay">
+              <span class="gallery-tag"><i class="fa-solid fa-plane-departure"></i> Tour</span>
+              <h3 class="gallery-title">Excursion & Tour Journey</h3>
+            </div>
+          </div>
+
+          <!-- Tour Image 2 -->
+          <div class="gallery-item" data-category="tour"
+            onclick="openLightbox(this.querySelector('img').src, 'Travel Exploration')">
+            <img src="images/tour/bandorban3.jpeg" alt="Travel Exploration" loading="lazy"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80';">
+            <div class="gallery-overlay">
+              <span class="gallery-tag"><i class="fa-solid fa-plane-departure"></i> Tour</span>
+              <h3 class="gallery-title">Travel Exploration</h3>
+            </div>
+          </div>
+
+          <!-- Certificate Image 1 -->
+          <div class="gallery-item" data-category="certificiate"
+            onclick="openLightbox(this.querySelector('img').src, 'Academic & Research Certification')">
+            <img src="images/certificiate/Research.png" alt="Academic & Research Certification" loading="lazy"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&w=800&q=80';">
+            <div class="gallery-overlay">
+              <span class="gallery-tag"><i class="fa-solid fa-award"></i> Certificate</span>
+              <h3 class="gallery-title">Academic & Research Certification</h3>
+            </div>
+          </div>
+
+          <!-- Certificate Image 2 -->
+          <div class="gallery-item" data-category="certificiate"
+            onclick="openLightbox(this.querySelector('img').src, 'Achievement & Award Certificate')">
+            <img src="images/certificiate/Python.png" alt="Achievement Certificate" loading="lazy"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1607344645866-009c320b5ab8?auto=format&fit=crop&w=800&q=80';">
+            <div class="gallery-overlay">
+              <span class="gallery-tag"><i class="fa-solid fa-award"></i> Certificate</span>
+              <h3 class="gallery-title">Achievement Certificate</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal for Gallery Images -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <img id="lightboxImg" src="" alt="Enlarged view">
+        <div class="lightbox-caption">
+          <h4 id="lightboxTitle" style="color: #fff; font-size: 1.15rem;"></h4>
+          <span style="font-size: 0.85rem; color: var(--text-muted);">Press Esc or click anywhere to exit</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================================================
+         4. PROJECTS SECTION
+         ======================================================================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> Engineering</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Selected engineering applications, open-source libraries, and full-stack software built for production.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+                alt="Fracture Vision Engine">
+              <span class="project-badge">TeamCraft</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Management Software</h3>
+              <p class="project-desc">
+                A web based team management software.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Next.js</span>
+                <span class="tech-pill">Vite</span>
+              </div>
+              <div class="project-footer">
+                <!-- <a href="#contact" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Live Demo</a> -->
+                <a href="https://github.com/farhanmasud1/TeamCraft" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-secondary btn-sm"><i class="fa-brands fa-github"></i> Source</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+                alt="Autonomous Robotics Agent">
+              <span class="project-badge">Blood Bank Management System</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Blood Bank Website</h3>
+              <p class="project-desc">
+                A web based blood bank management system where buyer can search for blood and get the nearest blood bank
+                and others.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">PhP</span>
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">SQL</span>
+              </div>
+              <div class="project-footer">
+                <!-- <a href="#research" class="btn btn-primary btn-sm"><i class="fa-solid fa-file-lines"></i> Case Study</a> -->
+                <a href="https://github.com/farhanmasud1/blood-bank-management-system-main" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-secondary btn-sm"><i class="fa-brands fa-github"></i>
+                  Repository</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80"
+                alt="Cloud Distributed Database">
+              <span class="project-badge">Sales Project</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Sales Invoice Project</h3>
+              <p class="project-desc">
+                A web based sales invoice management system.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Pyhton</span>
+                <span class="tech-pill">Django</span>
+                <span class="tech-pill">HTML Template</span>
+                <span class="tech-pill">SqLite</span>
+              </div>
+              <div class="project-footer">
+                <!-- <a href="#contact" class="btn btn-primary btn-sm"><i class="fa-solid fa-book"></i> Documentation</a> -->
+                <a href="https://github.com/farhanmasud1/Sales-Invoice-Project" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-secondary btn-sm"><i class="fa-brands fa-github"></i>
+                  Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. RESEARCH SECTION
+         ======================================================================== -->
+    <section class="section research-section" id="research">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-book-bookmark"></i> Publications</span>
+          <h2 class="section-title">Research & Scientific Papers</h2>
+          <p class="section-subtitle">
+            Scientific contributions, peer-reviewed articles, and preprints in machine learning, neural surface
+            reconstruction, and distributed consensus.
+          </p>
+        </div>
+
+        <div class="research-list">
+          <!-- Paper 1 -->
+          <article class="research-card">
+            <div class="research-meta">
+              <span class="meta-tag conference">Springer Nature</span>
+              <span class="research-year"><i class="fa-regular fa-calendar"></i> February 2026</span>
+              <span class="research-year"><i class="fa-solid fa-lock-open" style="color: var(--accent-success);"></i>
+                Open Access</span>
+            </div>
+            <h3 class="research-title">
+              A comprehensive review of transfer learning techniques for predicting heart diseases
+            </h3>
+            <p class="research-authors">
+              <i class="fa-solid fa-users"></i> FM Nayem, FS Prity
+            </p>
+            <p class="research-abstract">
+              This systematic review explores the contribution of transfer learning to the prediction of cardiovascular
+              diseases, highlighting deep neural network frameworks and the integration of multimodal data. In
+              accordance with the PRISMA 2020 framework, a systematic search was performed in PubMed, IEEE Xplore, and
+              ScienceDirect from 2017 to 2025, resulting in seven studies that fulfilled the inclusion requirements (≈
+              6000 patients). Retrieved parameters comprised model type, dataset features, sample size (n), and
+              performance indicators like accuracy, sensitivity, specificity, and AUROC (95%). Among the methods
+              reported, the DANomaly Generative Adversarial Convolution Neural Network (DGACNN) model reached 85%
+              accuracy for classifying congenital heart disease, while a dual-input ECG + PCG network achieved 94.7%
+              accuracy (AUROC 0.95 [0.92–0.97]) ....
+            </p>
+            <div class="research-actions">
+              <a href="#research" class="btn btn-secondary btn-sm"><i class="fa-solid fa-link"></i>
+                https://doi.org/10.1007/s42454-026-00090-6</a>
+            </div>
+          </article>
+
+          <!-- Paper 2 -->
+          <article class="research-card">
+            <div class="research-meta">
+              <span class="meta-tag conference">Informatics and Health</span>
+              <span class="research-year"><i class="fa-regular fa-calendar"></i> September 2026</span>
+              <span class="research-year"><i class="fa-solid fa-lock-open" style="color: var(--accent-success);"></i>
+                Open Access</span>
+            </div>
+            <h3 class="research-title">
+              Emotion detection using AI with explainable AI based perception: A comparative analysis between machine
+              learning and deep learning
+            </h3>
+            <p class="research-authors">
+              <i class="fa-solid fa-users"></i> FM Nayem, FS Prity, A Al Shiam
+            </p>
+            <p class="research-abstract">
+              Background Emotion recognition from electroencephalography (EEG) signals has emerged as an important
+              research area within Affective Computing and Human-Centered Artificial Intelligence due to its potential
+              applications in mental health assessment, adaptive human-computer interaction, and emotion-aware
+              intelligent systems. EEG signals provide a non-invasive and reliable means of capturing neural responses
+              associated with emotional states, while Artificial Intelligence (AI) enables efficient analysis of complex
+              and high-dimensional physiological data. Methods This study investigates EEG-based emotion recognition
+              using two publicly available Kaggle datasets: the Emotion Bandpower Dataset and the Gamma-Theta Enhanced
+              EEG Dataset. Both datasets contain statistical and spectral features extracted from multiple EEG frequency
+              bands and are labelled for binary emotion classification tasks involving …
+            </p>
+            <div class="research-actions">
+              <a href="#research" class="btn btn-secondary btn-sm"><i class="fa-solid fa-link"></i>
+                https://doi.org/10.1016/j.infoh.2026.06.004</a>
+            </div>
+          </article>
+
+          <!-- Paper 3 -->
+          <article class="research-card">
+            <div class="research-meta">
+              <span class="meta-tag conference">Pre-print</span>
+              <span class="research-year"><i class="fa-regular fa-calendar"></i> January 2026</span>
+              <span class="research-year"><i class="fa-solid fa-lock-open" style="color: var(--accent-success);"></i>
+                Open Access</span>
+            </div>
+            <h3 class="research-title">
+              Edge-Aware Contrast Enhancement Framework to Aid Automated Bone Fracture Detection
+            </h3>
+            <p class="research-authors">
+              <i class="fa-solid fa-users"></i> Farhan Masud Nayem, Fahmid Al Farid, Abdullah Al Shiam, Hridoy
+              Sutradhar, Hafija Akter, Abu Saleh Musa Miah, Hezerul Abdul Karim
+            </p>
+            <p class="research-abstract">
+              Bone fracture detection from X-ray images is a challenging task due to low contrast, noise, and poor
+              visibility of fine structural details. Existing enhancement techniques often fail to preserve clinically
+              important edges, resulting in reduced diagnostic accuracy in automated systems. To address this
+              limitation, this study proposes an Edge-Aware Contrast Enhancement Framework (EACEF) that integrates
+              laplacian sharpening, sobel gradient extraction, smoothing, unsharp masking, and adaptive gamma correction
+              to highlight fracture lines while suppressing noise. Three deep learning models, CNN, VGG16, and ResNet50,
+              were trained on two datasets that included both fractured and non-fractured ....
+            </p>
+            <div class="research-actions">
+              <a href="#research" class="btn btn-secondary btn-sm"><i class="fa-solid fa-link"></i>
+                https://doi.org/10.21203/rs.3.rs-8507893/v1</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. CONTACT SECTION (Interactive Email Reveal upon Push)
+         ======================================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Get In Touch</span>
+          <h2 class="section-title">Contact & Inquiries</h2>
+          <p class="section-subtitle">
+            Have a research proposition, engineering project, or speaking invitation? Push the button below to connect
+            with my email.
+          </p>
+        </div>
+
+        <div class="contact-container">
+          <!-- Left Column: Contact Cards & Instant Push Reveal -->
+          <div class="contact-info">
+            <!-- Push to Reveal Card -->
+            <div class="email-push-card">
+              <h4><i class="fa-solid fa-bell"></i> Need Instant Contact?</h4>
+              <p>Push the button below to instantly reveal my personal email and copy it to your clipboard.</p>
+              <button type="button" class="btn btn-primary btn-sm btn-glow" id="directRevealBtn">
+                <i class="fa-solid fa-envelope-open-text"></i> Push to Show Email
+              </button>
+            </div>
+
+            <!-- Email Card -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <div class="contact-label">Direct Email</div>
+                <a href="mailto:farhan.masud.mn@gmail.com" class="contact-value">farhan.masud.mn@gmail.com</a>
+              </div>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <div class="contact-label">Location & Timezone</div>
+                <div class="contact-value">Dhaka, Bangladesh (BST / UTC+6) & Remote</div>
+              </div>
+            </div>
+
+            <!-- Academic & Profiles -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div>
+                <div class="contact-label">Academic Profiles</div>
+                <div class="contact-value" style="font-size: 0.95rem; font-weight: 500;">
+                  Google Scholar &bull; ORCID &bull; ResearchGate
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Presence -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+              <div>
+                <div class="contact-label">Social Channels</div>
+                <div class="social-links" style="margin-top: 0.4rem;">
+                  <a href="https://github.com/farhanmasud1" target="_blank" rel="noopener noreferrer" class="social-btn"
+                    aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/farhanmasud1" target="_blank" rel="noopener noreferrer"
+                    class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer"
+                    class="social-btn" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Form & Push Response Display -->
+          <div class="contact-form-card">
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Your Full Name</label>
+                  <input type="text" id="name" class="form-control" placeholder="Dr. Jane Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Your Email Address</label>
+                  <input type="email" id="email" class="form-control" placeholder="jane@institution.edu" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" class="form-control"
+                  placeholder="Project Collaboration / Research Query" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea id="message" class="form-control"
+                  placeholder="Describe your inquiry, project scope, or research topic..." required></textarea>
+              </div>
+
+              <!-- Push Button -->
+              <button type="submit" class="btn btn-primary btn-glow" id="contactSubmitBtn"
+                style="width: 100%; justify-content: center;">
+                <i class="fa-solid fa-paper-plane"></i> Push & Send Message
+              </button>
+
+              <!-- Email Reveal Modal / Notification (Appears when pushed) -->
+              <div class="email-reveal-modal" id="emailRevealModal">
+                <div class="reveal-header" id="revealHeaderNotice">
+                  <i class="fa-solid fa-circle-check"></i> Form Submitted Successfully!
+                </div>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+                  Here is my direct email address. Feel free to copy it or open directly in your mail application:
+                </p>
+                <div class="reveal-box">
+                  <span class="reveal-address" id="revealedEmailAddress">farhan.masud.mn@gmail.com</span>
+                </div>
+                <div class="reveal-actions">
+                  <button type="button" class="btn btn-secondary btn-sm" id="copyRevealedEmailBtn">
+                    <i class="fa-solid fa-copy"></i> Copy Email
+                  </button>
+                  <a href="mailto:farhan.masud.mn@gmail.com" class="btn btn-primary btn-sm" id="openMailClientBtn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Mail Client
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       7. FOOTER SECTION (All links correctly connected)
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand & Bio -->
+        <div class="footer-brand">
+          <a href="#about" class="logo">
+            <span class="logo-badge">P</span>
+            <span>Farhan<span style="color: var(--accent-secondary);">.</span></span>
+          </a>
+          <p>
+            An interdisciplinary showcase of creative media, computational systems,
+            and scientific publications designed for high-impact innovation.
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/farhanmasud1" target="_blank" rel="noopener noreferrer" class="social-btn"
+              aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/farhanmasud1" target="_blank" rel="noopener noreferrer"
+              class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <!-- <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-btn"
+              aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a> -->
+            <a href="https://scholar.google.com/citations?user=SVwnLF8AAAAJ&hl=en" class="social-btn"
+              aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+          </div>
+        </div>
+
+        <!-- Working Navigation Links (About Me, Gallery, Project, Research, Contact) -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#about"><i class="fa-solid fa-angle-right"></i> About Me</a></li>
+            <li><a href="#gallery"><i class="fa-solid fa-angle-right"></i> Gallery</a></li>
+            <li><a href="#projects"><i class="fa-solid fa-angle-right"></i> Projects</a></li>
+            <li><a href="#research"><i class="fa-solid fa-angle-right"></i> Research</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-angle-right"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources & Artifacts -->
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="https://drive.google.com/drive/folders/1a7FGc4YccXelYYL029boufjW8i0D6IPW"><i
+                  class="fa-solid fa-angle-right"></i> Publications (PDF)</a></li>
+            <li><a href="#projects"><i class="fa-solid fa-angle-right"></i> Open Source Repos</a></li>
+            <li><a href="#gallery"><i class="fa-solid fa-angle-right"></i> Visual Media Assets</a></li>
+            <li><a href="#about"><i class="fa-solid fa-angle-right"></i> Curated Tech Stack</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Contact Quick Links -->
+        <div class="footer-col">
+          <h4>Direct Connect</h4>
+          <ul class="footer-links">
+            <li><a href="#contact"><i class="fa-solid fa-angle-right"></i> Direct Email</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-angle-right"></i> Send Message</a></li>
+            <li><a href="https://drive.google.com/file/d/1AQ5XAOX0u03xuhLNHPmD9S7VSh7ir4XZ/view?usp=sharing"
+                target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-angle-right"></i> Curriculum Vitae
+                (PDF)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar with Auto Year & Back to Top -->
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear"></span> Farhan Masud Nayem. All rights reserved.
+        </div>
+        <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top"
+          onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
+          <span>Back to Top</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button
+  <button class="floating-back-to-top" id="floatingBackToTop" aria-label="Scroll to top"
+    onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button> -->
+
+  <!-- External JavaScript File (main.js) -->
+  <script src="main.js" defer></script>
+</body>
+
+</html>
